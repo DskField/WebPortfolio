@@ -1,0 +1,17 @@
+{
+  "name": "poeh-nieuw",
+  "version": "1.0.0",
+  "description": "Poehbot, vernieuwd en wel",
+  "main": "poeh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "Hertog#0420",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "dotenv-flow": "^3.1.0"
+  }
+}
