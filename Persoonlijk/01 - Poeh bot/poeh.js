@@ -18,9 +18,6 @@ const config = {
     awardchan: process.env.AWARD_CHANNEL
 };
 
-// Collection datamap van commands
-client.commands = new Discord.Collection();
-
 // Filter alle bestanden voor commandhandler die niet javascript zijn
 const commandFiles = fs
     .readdirSync('./commands')
@@ -44,7 +41,7 @@ client.on("ready", () => {
 
     // Play status van bot user
     //client.user.setActivity(`with his SUPERIOUR supply of kush.`, { type: "PLAYING" });
-    client.user.setActivity(`:poeh: help | Beta.`, { type: "PLAYING" }).catch(console.error);
+    client.user.setActivity(`:poeh: help`, { type: "PLAYING" }).catch(console.error);
 });
 
 // Wanneer een message gedelete wordt
@@ -69,7 +66,7 @@ client.on("guildMemberAdd", member => {
         .send(
             `Poeh, zucht, 
             ${member.user.username} 
-            maakt nu deel uit van de stonercirkel. ***KUCH KUCH*** Geef deze persoon es een blunt ofzo.`
+            maakt nu deel uit van de stonercirkel.`
         )
         .catch(console.error);
 });
@@ -107,13 +104,6 @@ client.on("message", async message => {
     // Definiëer adminperms
     let hasAdmin = message.member.hasPermission("ADMINISTRATOR");
 
-    // Als command een cijfer is, pass het naar de 'rater'
-    // Rater is de officiële naam voor het cijfersysteem van Poeh
-    if (!isNaN(parseInt(commandName))){
-        args[0] = commandName;
-        commandName = "rater";
-    }
-
     // Definiëer commando
     const command = client.commands.get(commandName)
         || client.commands.find(cmd => cmd.alias && cmd.alias.includes(commandName));
@@ -132,7 +122,7 @@ client.on("message", async message => {
     // Check of commando alleen voor admins is
     if (command.adminOnly) {
         if (!hasAdmin) {
-            return message.reply('Alleen stenigers met modrechten mogen dit commando uitvoeren!');
+            return message.reply('Alleen admins mogen dit commando uitvoeren!');
         }
     }
 
