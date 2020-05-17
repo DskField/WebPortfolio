@@ -1,0 +1,11 @@
+h1, h2, h3 {
+    background-color: red;
+}
+
+p, h1, h2, h3 {
+    color: white;
+}
+
+/*body {*/
+/*    background-color: lawngreen;*/
+/*}*/

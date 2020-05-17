@@ -1,0 +1,8 @@
+
+@media screen and (max-width: 1024px){
+
+  .tablet > .image-gallery{
+    display: flex;
+    flex-direction: column;
+  }
+}

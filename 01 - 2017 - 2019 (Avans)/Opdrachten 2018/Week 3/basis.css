@@ -1,0 +1,40 @@
+/* Tijd om schijt in te kleuren ouwe */
+
+body{
+  background-image: url(kneu.png);
+}
+
+.roboto{
+  font-family: 'Roboto Slab', serif;
+}
+
+.opdracht_1{
+  background-color: lightblue;
+  padding: 10px;
+  width: 700px;
+}
+
+.blue{
+  color: blue;
+}
+
+.largequote{
+  font-weight: bold;
+}
+
+.red-list{
+  color: red;
+}
+
+.greenlist{
+  color: green;
+}
+
+.last-item{
+  font-style: italic;
+  border-bottom: 2px solid black;
+}
+
+.warning{
+  color: firebrick;
+}

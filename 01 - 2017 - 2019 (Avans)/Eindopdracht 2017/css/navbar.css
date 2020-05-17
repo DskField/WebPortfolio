@@ -1,0 +1,62 @@
+.dropdownmenu {
+	display: flex;
+	align-content: stretch;
+	margin: 0 auto;
+
+	
+	/*width: 820px; /* gebruik px ipv percentage, dit is een nieuwe class */
+}
+
+.dropdownmenu ul { /*zorgt dat de icon van de ul list niet worden weergegeven*/
+    /* Alles netjes gealigned en sluit aan met de width */
+	display: flex;
+	justify-content: space-between; /*Gelijke ruimte tussen de boxjes */
+	background: #30A6E6; /* Grijze streepjes weggehaald! :) */
+    list-style: none;
+    width: 100%;
+	margin: 0;
+    padding: 0;
+
+}
+.dropdownmenu li { /*zorgt ervoor dat de li naast elkaar komt te zitten*/
+    float: left;
+    position: relative;
+    width:auto;
+	margin: 0;
+    padding: 0;
+}
+.dropdownmenu a { /*zorgt voor  de opmaak van de nav bar*/
+    background: #30A6E6;
+    color: #FFFFFF;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdownmenu li:hover a { /*als je met muis over nav gaat, dat de geselecteerde tekst een donker achtergrond krijgt.*/
+    background: #000000;
+}
+#submenu {
+	display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+}
+li:hover ul#submenu {
+    top: 40px; 
+    visibility: visible;
+}
+#submenu li {
+    float: none;
+    width: 100%;
+}
+#submenu a:hover {
+    background: #DF4B05;
+}
+#submenu a {
+    background-color:#000000;
+}

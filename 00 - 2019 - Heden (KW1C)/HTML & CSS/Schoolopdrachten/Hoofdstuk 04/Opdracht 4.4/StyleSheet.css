@@ -1,0 +1,34 @@
+body {
+    background-color: dodgerblue;
+}
+
+h2,
+p,
+hr,
+ul > li:first-child{
+    color: white
+}
+
+span {
+    background-color: white;
+    color: dodgerblue;
+}
+
+li {
+    background-color: red;
+}
+
+h1 > span,
+li > span{
+    background-color: black;
+}
+
+.element {
+    background-color: transparent;
+    color: gold;
+}
+
+#introduction {
+    background-color: transparent;
+    color: black;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+html {
+    height: 100%;
+}
+body {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+}
+textbox {
+    background-image: url("../images/text_background.png");
+    height: 191px;
+    width: 897px;
+    position: absolute;
+    left: 15%;
+    bottom: 1%;
+    display: none;
+}
+textbox headerText, textbox message {
+    font-family: 'Press Start 2P', cursive;
+}
+textbox headerText {
+    position: relative;
+    display:block;
+    padding-top: 6%;
+    font-size: 1.3em;
+    left: 35px;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em red;
+}
+textbox message {
+    position: relative;
+    display:block;
+    top: 7%;
+    left: 45px;
+    width: 90%
+}
+player1 {
+    background-image: url("../images/player1.png");
+    height: 40px;
+    width: 40px;
+    display: block;
+    position: relative;
+    top:58%;
+    left: 1%
+}
+startButton {
+    background-image: url("../images/start.png");
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    background-color: #CCCCCC;
+    opacity: 0.9;
+}
+startButton:hover{
+    cursor: pointer;
+}
+
+homebuilding,
+administration {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+}
+
+homeBuilding {
+    top: 420px;
+    left: 0;
+}
+
+administration {
+    top: 480px;
+    left: 300px;
+}

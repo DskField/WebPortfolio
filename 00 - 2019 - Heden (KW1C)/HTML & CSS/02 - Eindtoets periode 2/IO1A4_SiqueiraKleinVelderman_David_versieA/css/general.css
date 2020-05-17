@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Folkard;
+    src: url("../fonts/folkard.ttf");
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+
+    width: 100vw; /* Ik gebruik viewport width, omdat ik hiermee maximale breedte van het scherm wil forceren */
+    margin: unset;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    background-color: #0E86CA;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Folkard, serif, Arial;
+
+    letter-spacing: 10px;
+
+    color: #00AEFF;
+}
+
+footer {
+    height: 35px;
+    margin-top: -35px;
+}
+
+footer > p {
+    width: auto;
+    background-color: #358543;
+}

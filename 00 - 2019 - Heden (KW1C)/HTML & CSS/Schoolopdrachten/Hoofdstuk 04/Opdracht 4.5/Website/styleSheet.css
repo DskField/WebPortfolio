@@ -1,0 +1,41 @@
+hr.light,
+p {
+    color: white;
+}
+
+hr#dark {
+    color: black;
+}
+
+/* nu.nl geel maken */
+body > img + p,
+footer > section > p{
+    color: gold;
+}
+
+/* Rijkswaterstaat */
+body#algemeen {
+    background-color: #005c9e;
+}
+
+#algemeen > h1,
+#algemeen > hr.light + p,
+#algemeen > p > q,
+#algemeen > footer > p{
+    color: #94d2ff;
+}
+
+/* Politiek */
+body#politiek {
+    background-color: #7c0202;
+}
+
+#politiek > h1,
+#politiek > h2,
+#politiek > hr.light + p,
+#politiek > p > q,
+#politiek > footer > p{
+    color: #ffabab;
+}
+
+

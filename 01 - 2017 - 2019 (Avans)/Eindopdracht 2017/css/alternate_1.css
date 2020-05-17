@@ -1,0 +1,32 @@
+.a_colorred{
+	color: red
+}
+
+
+.a_size{
+	font-size: 25px;
+}
+
+.a_underline{
+	text-decoration: underline;
+}
+
+.a_bold{
+	font-weight: bold;
+}
+
+.a_background{
+	background: green;
+}
+
+.a_borders{
+	border: 1px solid red;
+}
+
+.greencolor{
+	color: green;
+}
+
+.graycolor{
+	color: gray;
+}

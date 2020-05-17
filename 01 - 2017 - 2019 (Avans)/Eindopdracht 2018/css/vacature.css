@@ -1,0 +1,41 @@
+.body{
+    display: flex;
+}
+.vacature{
+    width: 40%;
+    color: #EDF5E1;
+    border: 1px solid #05386b;
+    margin: 0px 50px;
+    padding: 5px;
+    background-color: #05386b;
+    border-radius: 5%;
+}
+
+.vacature span{
+    font-weight: 600;
+}
+
+.vacature ul>li{
+    font-size: 14px;
+    width: 20%;
+}
+
+.vacature h2{
+  font-size: 18px;
+}
+
+@media screen and (max-width: 480px){
+
+  .body{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vacature{
+    margin: 5px 5px;
+    width: 80%;
+  }
+
+
+
+
+}

@@ -1,0 +1,94 @@
+<!--
+Opdracht:       12.4
+Auteur:         David S. Klein Velderman
+Datum + tijd:   29-02-2020 14:45
+Bestandsnaam:   index.html
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Digitaal scorebord
+        </title>
+        <meta name="description" content="Template Javascript voor (les) opdrachten">
+        <meta name="keywords" content="Javascript, HTML, CSS, Opdrachten">
+        <meta charset="utf-8">
+        <script src="js/jQuery.js"></script>
+        <script src="js/script.js" defer></script>
+        <script src="js/opdracht.js" defer></script>
+        <link rel="icon" type="image/png" href="https://www.kw1c.nl/favicon.ico?v=kw1cweb2">
+    </head>
+
+    <style>
+        table {
+            width: 75%;
+            border: solid 1px;
+        }
+        td {
+            text-align: center;
+            min-width: 200px; 
+        }
+        td[id*="Team"]
+        {
+            min-width: 300px;    
+        }
+        tr:nth-child(odd) {
+            background-color: #eeeeee;
+        }
+        .extraTime
+        {
+            color: red;
+        }
+
+    </style>
+    <body>
+        <h1>Digitaal scoreboard</h1>
+
+        <table>
+            <tr>
+                <td id="naamTeam1"><h1>FC Orthen Links</h1></td>
+                <td id="wedstrijdTijd"></td>
+                <td id="naamTeam2"><h1></h1></td>
+            </tr>
+            <tr>
+                <td id="goalsTeam1">0</td>
+                <td><h3>Goals</h3></td>
+                <td id="goalsTeam2">0</td>
+            </tr>
+            <tr>
+                <td id="geleKaartenTeam1">0</td>
+                <td><h3>Gele kaarten</h3></td>
+                <td id="geleKaartenTeam2">0</td>
+            </tr>
+            <tr>
+                <td id="rodeKaartenTeam1">0</td>
+                <td><h3>Rode kaarten</h3></td>
+                <td id="rodeKaartenTeam2">0</td>
+            </tr>
+            <tr>
+                <td id="wisselsTeam1">0</td>
+                <td><h3>Wissels</h3></td>
+                <td id="wisselsTeam2">0</td>
+            </tr>
+            <tr>
+                <td id="cornersTeam1">0</td>
+                <td><h3>Corners</h3></td>
+                <td id="cornersTeam2">0</td>
+            </tr>
+            <tr>
+                <td id="penaltiesTeam1">0</td>
+                <td><h3>Penalties</h3></td>
+                <td id="penaltiesTeam2">0</td>
+            </tr>
+            <tr>
+                <td id="ingooienTeam1">0</td>
+                <td><h3>Ingooien</h3></td>
+                <td id="ingooienTeam2">0</td>
+            </tr>
+        </table>
+        <br>
+        <button id="resetButton">Reset</button>
+    </body>
+</html>

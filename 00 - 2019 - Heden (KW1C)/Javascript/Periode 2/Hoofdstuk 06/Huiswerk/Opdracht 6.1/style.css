@@ -1,0 +1,14 @@
+section
+{
+    font-size: 100vw;
+    height: 50vh;
+}
+section span 
+{
+    background-color: antiquewhite;
+    font-family: monospace;
+    text-align: center;
+    display: block;
+    float: left;
+    margin: 5px;
+}

@@ -1,0 +1,27 @@
+
+div{
+  border: 1px orange solid;
+}
+
+p{
+  border: 1px blue solid;
+}
+
+.div1, .p2{
+  margin: 5px;
+}
+
+.div2, .p1{
+  padding: 5px;
+}
+
+.imgdiv{
+  width: 400px;
+  height: 600px;
+  border: 3px blue solid;
+}
+
+.usopp{
+  width: 500px;
+  height: 400px;
+}

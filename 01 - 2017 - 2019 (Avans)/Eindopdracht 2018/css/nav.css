@@ -1,0 +1,153 @@
+
+nav {
+  display: flex;
+}
+
+ul.navbar-items{
+  display: flex;
+  flex-direction: row;
+	justify-content: space-evenly; /*Gelijke ruimte tussen de boxjes */
+  width: 100%;
+	margin: 0;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+}
+
+ul.navbar-items > li{
+  /* Display */
+  vertical-align: middle;
+  background-color: #05386b;
+
+  /* Border */
+  border-radius: 10%;
+
+  /* Font */
+  color: #8EE4AF;
+  font-weight: bold;
+  font-size: 40px;
+
+  /* Padding */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+ul.navbar-items > li > a{
+  color: #EDF5E1;
+  text-decoration: none;
+}
+
+#submenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+
+    visibility: hidden;
+    list-style: none;
+
+
+    padding-left: 0px;
+
+    margin-left: -5px;
+
+    border-radius: 10%;
+}
+li:hover ul#submenu {
+    /* top: 40px; */
+    visibility: visible;
+    display: block;
+    background-color: #05386b;
+}
+#submenu li {
+
+    /* float: none; */
+    /* width: 100%; */
+}
+
+#submenu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#submenu a:hover {
+
+    /* display: block; */
+}
+
+@media screen and (max-width: 1024px) {
+  ul.navbar-items > li{
+    font-weight: normal;
+    font-size: 24px;
+  }
+
+  #submenu{
+    width: 86.05px;
+    margin-left: -15px;
+  }
+
+  #submenu a{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px){
+
+  nav.phone{
+    display: flex;
+  }
+
+  nav.phone > img{
+    width: 15%;
+    height: 10%;
+  }
+
+  ul.navbar-items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+  }
+
+  ul.navbar-items > li{
+    /* Display */
+    vertical-align: middle;
+    background-color: #05386b;
+    width: 150px;
+
+    /* Border */
+    border-radius: 5%;
+
+    /* Font */
+    color: #8EE4AF;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  ul#submenu {
+    width: 180px;
+    border-top-left-radius: 0% !important;
+    border-top-right-radius: 0% !important;
+  }
+
+  ul#submenu > li{
+
+
+    width: 180px;
+    height: 20px;
+  }
+  ul#submenu > li > a{
+    font-size: 10px;
+  }
+
+}

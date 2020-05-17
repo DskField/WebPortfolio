@@ -1,0 +1,71 @@
+/* Achtergrond pagina */
+body {
+    background-color: antiquewhite;
+}
+
+/* Hot Pink */
+h1,
+body > p:nth-child(12) > em{
+    color: white;
+    background-color: hotpink;
+}
+
+/* Deep Pink */
+h2,
+h2 + p > strong{
+    color: deeppink;
+}
+
+/* Medium Purple */
+h2 + p,
+body > p:nth-child(5),
+body > p:nth-child(8) > em,
+body > p:nth-child(13) > em {
+    color: mediumpurple;
+}
+
+/* Purple */
+body > p:nth-child(6),
+body > p:nth-child(7),
+body > p:nth-child(8),
+body > p:nth-child(12),
+body > p:nth-child(13) {
+    color: purple;
+}
+
+/* Introductie */
+body > p:nth-child(2),
+body > p:nth-child(3) {
+    background-color: lightpink;
+    color: white;
+}
+
+/* Typen en eigenschappen */
+.typen {
+    color: rebeccapurple;
+}
+
+/* Deez nuts */
+#topnoot,
+#hartnoot,
+#basisnoot {
+    color: black;
+}
+
+#topnoot > em,
+#hartnoot > em,
+#basisnoot > em {
+    color: white;
+}
+
+#topnoot {
+    background-color: mediumvioletred;
+}
+
+#hartnoot {
+    background-color: indianred;
+}
+
+#basisnoot {
+    background-color: palevioletred;
+}

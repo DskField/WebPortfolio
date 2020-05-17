@@ -1,0 +1,19 @@
+.horizon-box > p{
+    max-height: 120px;
+    font-size: 30px;
+}
+
+.horizon-box > p ~ figure > img { /* Wie gebruikt er in godsnaam zo'n selector... */
+    height: 200px;
+}
+
+.verti-box > p,
+.map {
+    max-width: 800px;
+    align-self: center;
+}
+
+.verti-box > p + figure > img {
+    height: 400px;
+}
+

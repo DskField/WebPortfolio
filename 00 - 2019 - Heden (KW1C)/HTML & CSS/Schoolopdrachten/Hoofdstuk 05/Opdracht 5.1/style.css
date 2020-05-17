@@ -1,0 +1,15 @@
+body {
+    background-color: #000; /* Zwart */
+}
+
+p {
+    color: #fff; /* Wit */
+}
+
+.orange {
+    color: #f35b0a; /* Oranje */
+}
+
+.grey {
+    color: #8a9294 /* Grijs */
+}

@@ -1,0 +1,34 @@
+
+.h1center {
+  text-align: center;
+}
+
+.body-left{
+  margin-left: auto;
+  justify-content: space-around;
+}
+
+.submitform{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-left: 3em;
+  margin-right: auto;
+}
+
+.tablet{
+  margin-left: auto;
+}
+
+@media screen and (max-width: 480px){
+
+  .formuliercenter{
+    width: 250px;
+  }
+
+
+
+
+
+
+}

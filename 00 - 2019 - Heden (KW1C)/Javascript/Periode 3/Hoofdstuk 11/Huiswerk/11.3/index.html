@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!--
+    Opdracht:     Hoofdstuk 11 opdracht 3
+    Auteur:       David Siqueira Klein Velderman
+    Aanmaakdatum: 07/02/2020
+    Bestandsnaam: index.html
+-->
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>11.3</title>
+	<script src="script.js" defer></script>
+</head>
+<body onload="console.log(showLoad())" onresize="showResize()">
+
+<label>
+	<input
+			type="text"
+			value="Dit is invoerveld 1"
+
+			onselect="textSelect()"
+	>
+</label>
+
+<label>
+	<input
+			type="text"
+			value="Dit is invoerveld 2"
+
+			onchange="textChange()"
+	>
+</label>
+
+<label>
+	<input
+			type="text"
+			value="Dit is invoerveld 3"
+
+			onkeydown="this.style.color = '#F00'"
+			onkeyup="this.style.color = '#000'"
+	>
+</label>
+
+<p onmouseover="mouseOverAlert()">
+	Dit is paragraaf 1
+</p>
+
+<p onmousedown="mouseClickAlert()">
+	Dit is paragraaf 2
+</p>
+
+<p oncopy="copyAlert()">
+	Dit is paragraaf 3
+</p>
+
+</body>
+</html>

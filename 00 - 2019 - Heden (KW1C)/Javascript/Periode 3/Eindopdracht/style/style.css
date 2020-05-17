@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+html {
+    height: 100%;
+}
+flame {
+    display: none;
+    position: absolute;
+}
+body {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+}
+textbox {
+    background-image: url("../images/text_background.png");
+    height: 191px;
+    width: 897px;
+    position: absolute;
+    left: 15%;
+    bottom: 1%;
+    display: none;
+}
+textbox headerText, textbox message {
+    font-family: 'Press Start 2P', cursive;
+}
+textbox headerText {
+    position: relative;
+    display:block;
+    padding-top: 6%;
+    font-size: 1.3em;
+    left: 35px;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em red;
+}
+textbox message {
+    position: relative;
+    display:block;
+    top: 7%;
+    left: 45px;
+    display: block;  
+    width: 90%
+}
+player1 {
+    background-image: url("../images/player1.png");
+    height: 40px;
+    width: 40px;
+    display: block;
+    position: relative;
+    top:58%;
+    left: 1%
+}
+startButton {
+    background-image: url("../images/start.png");
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    background-color: #CCCCCC;
+    opacity: 0.9;
+}
+startButton:hover{
+    cursor: pointer;
+}
+
+.Building
+{
+    display: block;
+    position: absolute;
+}
+
+homeBuilding
+{
+    height: 16%;
+    width: 6.5%;
+    left:0%;
+    top:39.5%;
+}
+
+administrationBuilding
+{
+    height: 13%;
+    width: 8%;
+    left:14%;
+    top:49%;
+}
+
+hardwareAOBuilding
+{
+    height: 17%;
+    width: 15%;
+    left:29.5%;
+    top:46%;
+}
+
+cantineBuilding
+{
+    height: 15%;
+    width: 10.5%;
+    left:61.5%;
+    top:79.5%;
+}
+
+railroadBuilding
+{
+    height: 15%;
+    width: 10.5%;
+    left:89.5%;
+    top:79.5%;
+}
+
+kidnappersBuilding
+{
+    height: 8%;
+    width: 15.5%;
+    left:43%;
+    top:0%;
+}
+
+helpButton
+{
+    background-image: url("../images/help.png");
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    height: 7%;
+    width: 6%;
+    left:29.5%;
+    top:46%;    
+}
+
+cheatTree
+{
+    display: block;
+    position: absolute;
+    height: 8%;
+    width: 4.5%;
+    left:17.8%;
+    top:9.5%; 
+}

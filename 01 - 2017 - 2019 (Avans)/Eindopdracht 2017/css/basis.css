@@ -1,0 +1,99 @@
+html{
+	height: 100%;
+}
+
+img{
+	display: block;
+}
+
+figure{
+	margin: 0;
+}
+
+h1{ 
+	font-size: 24px;
+}
+
+.h1center{
+	text-align: center;
+}
+
+form{
+	display: flex;
+	align-content: center;
+}
+
+footer{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 820px;
+	height: 60px;
+	background-color: #30A6E6;
+	color: white;
+	bottom: 0px;
+	position: fixed;
+}
+
+.emptyspace{
+	padding: 30px;
+}
+
+.clear{
+	clear: both; /*1 zodat je ervoor zorgt dat de tekst niet naast de navigatiebar komt*/
+}
+
+.Kaushan{
+	font-family: 'Kaushan Script', cursive;
+}
+
+@media screen and (max-width: 1024px) {
+
+	.Kashuan{
+		display: flex;
+		flex-direction: column;
+	}
+}
+.image150b{
+	width: 200px;
+	border: 1px solid black;
+	margin-right: 15px;
+}
+.image250{
+	width: 250px;
+	
+}
+
+.image450{
+	width: 480px;
+}
+
+.imgwidth_ps4logo{
+	width: 100%;
+}
+
+.container{
+	max-width: 820px;
+	margin: 0 auto; /*zorgt ervoor dat alle margins worden weggehaald*/
+}
+
+.floatright{
+	float: right;
+}
+
+.floatleft{
+	float: left;
+}
+
+body { /*#gradient is veranderd naar body, want de background wordt overal gebruikt, maybe een nieuw css voor een ander background*/
+	/* de height is verwijderd, en bij html regel 2 is html: 100%; gedaan */
+	background: linear-gradient(White,LightSkyBlue);
+	Background-attachment: fixed; 
+}
+
+.big-icon {
+    font-size: 100px;
+}

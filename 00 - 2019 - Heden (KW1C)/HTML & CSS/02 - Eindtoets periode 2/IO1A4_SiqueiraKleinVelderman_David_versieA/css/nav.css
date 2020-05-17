@@ -1,0 +1,43 @@
+ul,
+ol {
+    list-style: none;
+}
+
+#navbar-items {
+    /* Display */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#navbar-items > li {
+    width: 100px;
+
+    /* In totaal 20px marge */
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding: 10px 15px;
+
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#navbar-items > li > a {
+    color: #000;
+    text-decoration: none;
+}
+
+#navbar-items > li:hover {
+    color: #fff;
+}
+
+.nomargleft {
+    margin-left: unset !important;
+}
+
+.nomargright {
+    margin-right: unset !important;
+}

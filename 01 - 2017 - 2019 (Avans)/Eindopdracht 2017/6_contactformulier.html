@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/basis.css">
+		<link rel="stylesheet" type="text/css" href="css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="css/break_point.css">
+		<link rel="stylesheet" type="text/css" href="css/basis_flex.css">
+		<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/hamburger.css">
+		<title>Contactformulier</title>
+	</head>
+	<body class="container">
+		<header>
+			<nav class="dropdownmenu">
+			  <ul>
+				<li><a href="1_home.html">Home</a>
+				</li>
+
+				<li><a href="2_sonic.html">Over Sonic</a>
+				</li>
+
+				<li><a href="3_goku.html">Over Goku</a>
+					<ul id="submenu">
+						<li><a href="3_secret.html">Secret Pokemons</a></li>
+					</ul>
+				</li>
+
+				<li><a href="4_overzichtspagina.html">Overzicht</a>
+				</li>
+
+				<li><a href="5_image_gallery.html">Image Gallery</a>
+				</li>
+
+				<li><a href="6_contactformulier.html">Contactformulier</a>
+				</li>
+
+				<li><a href="7_wie_zijn_wij.html">Wie zijn wij?</a>
+
+				</li>
+			  </ul>
+			</nav>
+
+			<nav class="hammenu">
+					<div class="menu" ><label for="ham">Menu</label></div>
+					<input id="ham" type="checkbox">
+					<ul>
+						<li><a href="1_home.html">Home</a>
+						</li>
+
+						<li><a href="2_sonic.html">Over Sonic</a>
+						</li>
+
+						<li><a href="3_goku.html">Over Goku</a>
+							<ul id="submenu">
+								<li><a href="3_secret.html">Secret Pokemons</a></li>
+							</ul>
+						</li>
+
+						<li><a href="4_overzichtspagina.html">Overzicht</a>
+						</li>
+
+						<li><a href="5_image_gallery.html">Image Gallery</a>
+						</li>
+
+						<li><a href="6_contactformulier.html">Contactformulier</a>
+						</li>
+
+						<li><a href="7_wie_zijn_wij.html">Wie zijn wij?</a>
+
+						</li>
+					</ul>
+			</nav>
+		</header>
+		<div class="clear"></div>
+		<article>
+			<h1 class="h1center">Contactformulier</h1>
+			<form class="desktop_screen">
+				<div class="formuliercenter">
+					<fieldset>
+						Leuk dat je een reactie wilt achterlaten. We ontvangen graag uw feedback!
+					</fieldset>
+
+					<fieldset>
+						<input type ="text" placeholder="Je naam">
+					</fieldset>
+
+					<fieldset>
+						<input type ="text" placeholder="E-mail adres">
+					</fieldset>
+
+					<fieldset>
+						Male<input type ="radio" name="gender" value="0">
+
+						Female<input type ="radio" name="gender" value="0">
+
+						Anders<input type ="radio" name="gender" value="0">
+					</fieldset>
+
+					<fieldset>
+						<input type ="number" placeholder="Telefoonnummer">
+					</fieldset>
+
+					<fieldset>
+						<textarea name="reactie">Wat heb je te melden?</textarea>
+					</fieldset>
+
+					<fieldset>
+						<select>
+							<option value="anime">Anime</option>
+
+							<option value="terrasje">Terrasje</option>
+
+							<option value="game of thrones">Game of Thrones</option>
+
+							<option value="star wars">Star Wars</option>
+						</select>
+					</fieldset>
+				</div>
+			</form>
+			<form action="8_redirection.html" method="get">
+				<fieldset><input type="submit" value="Submit!"
+					 name="Submit" /></fieldset>
+			</form>
+			<form class="tablet_screen">
+				<fieldset>
+					<p>
+						Leuk dat je een reactie wilt achterlaten. We ontvangen graag uw feedback!
+					</p>
+					<p>
+						Vul onderstaand 100% waarheidsgetrouw in. Alle velden zijn verplicht.
+					</p>
+					<p>
+						Uw reactie: <textarea name="reactie"></textarea>
+					</p>
+					<p>
+						naam: <input type="text">
+					</p>
+					<p>
+						e-mailadres: <input type="text">
+					</p>
+					<p>
+						geslacht: <input type="radio" name="man" value="1">man
+						<input type ="radio" name="vrouw" value = "0">vrouw
+					</p>
+					<p>
+						favoriete kleur: <input type="color">
+					</p>
+					<p>
+						favoriete bestand: <input type="file">
+					</p>
+					<p>
+						wachtwoord van je e-mail account: <input type="password">
+					</p>
+					<p>
+						favoriete snack:
+						<select name="opties">
+							<option value="o1">Appelflap</option>
+							<option value="o1">Spammerino</option>
+						</select>
+					</p>
+					<p>
+						wilt u zich ook inschrijven voor onze nieuwsbrief? <input type="checkbox">
+					</p>
+					<p>
+						<input type="submit">
+					</p>
+				</fieldset>
+			</form>
+			<form class="mobile_screen">
+				<fieldset>
+					Leuk dat je een reactie wilt achterlaten. We ontvangen graag uw feedback!
+				</fieldset>
+
+				<fieldset>
+					<input type ="text" placeholder="Je naam">
+				</fieldset>
+
+				<fieldset>
+					<input type ="text" placeholder="E-mail adres">
+				</fieldset>
+
+				<fieldset>
+					Male<input type ="radio" name="gender" value="0">
+
+					Female<input type ="radio" name="gender" value="0">
+
+					Anders<input type ="radio" name="gender" value="0">
+				</fieldset>
+
+				<fieldset>
+					<input type ="number" placeholder="Telefoonnummer">
+				</fieldset>
+
+				<fieldset>
+					<textarea name="reactie">Wat heb je te melden?</textarea>
+				</fieldset>
+
+				<fieldset>
+					<select>
+						<option value="anime">Anime</option>
+
+						<option value="terrasje">Terrasje</option>
+
+						<option value="game of thrones">Game of Thrones</option>
+
+						<option value="star wars">Star Wars</option>
+					</select>
+				</fieldset>
+
+				<fieldset><input type ="button" value="Submit"></fieldset>
+			</form>
+		</article>
+		<div class="emptyspace">
+		</div>
+		<footer>
+			<p>YuGiOh! Duel Links | Powered by Kaiba Corporation</p>
+		</footer>
+
+	</body>
+</html>

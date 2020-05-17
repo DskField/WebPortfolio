@@ -1,0 +1,31 @@
+
+h1,
+p {
+    margin: unset;
+}
+
+h3,
+p {
+    color: #fff;
+}
+
+article {
+    margin: 50px;
+}
+
+.darksec {
+    background-color: rgba(0,0,0,0.75);
+}
+
+.blank {
+    height: 50px;
+}
+
+.imgcont {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgcont > img{
+    width: 50%;
+}

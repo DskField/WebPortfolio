@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+hr {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+#cr {
+    color: darkgrey;
+}
+
+.rood {
+    color: red;
+}
+
+.oranje {
+    color: orange;
+}
+
+.geel {
+    color: yellow;
+}
+
+.groen {
+    color: green;
+}
+
+.blauw {
+    color: blue;
+}
+
+.paars {
+    color: purple;
+}
+
+.roze {
+    color: deeppink;
+}

@@ -1,0 +1,39 @@
+<!--
+    Opdracht:     Hoofdstuk 11 opdracht 2
+    Auteur:       David Siqueira Klein Velderman
+    Aanmaakdatum: 04/02/2020
+    Bestandsnaam: index.html
+-->
+
+<html>
+    <head>
+        <title>
+            Flappy Bird
+        </title>
+        <meta name="keywords" content="Javascript, HTML, CSS, Opdrachten">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="https://www.kw1c.nl/favicon.ico?v=kw1cweb2">
+        <link rel="stylesheet" href="style.css">
+        <script src="js/game_engine.js" defer></script>
+    </head>
+    
+    <body onkeydown="moveItByKey(event);" onkeyup="clearmove();">
+        <div style="text-align:center;width:480px;">
+
+        </div>
+
+        <button onmousedown="moveup()" onmouseup="clearmove()" >
+            <img src="images/arrow_up.png"> UP
+        </button>
+
+        <button onmousedown="movedown()" onmouseup="clearmove()">
+            <img src="images/arrow_down.png"> DOWN
+        </button>
+
+        <button onmousedown="startGame()">
+            <img src="images/start-button.png">
+        </button>
+
+    </body>
+</html>

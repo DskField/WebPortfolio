@@ -1,0 +1,27 @@
+body {
+    background-image: url("images/Achtergrond.jpg");
+    font-family: Centaur;
+    color: #fff;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#olifant,
+#leeuw,
+#buffel {
+    float: right;
+}
+
+#neushoorn {
+    float: left;
+}

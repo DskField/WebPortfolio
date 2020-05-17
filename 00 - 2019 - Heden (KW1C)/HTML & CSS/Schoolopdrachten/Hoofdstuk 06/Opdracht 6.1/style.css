@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Shadows Into Light";
+    src: url("ShadowsIntoLight-Regular.ttf");
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Shadows Into Light";
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Bradley Hand ITC';
+    font-size: 200%;
+}
+
+body{
+    background-color: black;
+}
+
+h1, p {
+    color: #fff;
+}
+
+.yellow {
+    color: #ffe100;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.orange {
+    color: #ff6c00;
+    font-size: 60px;
+}
+
+
+

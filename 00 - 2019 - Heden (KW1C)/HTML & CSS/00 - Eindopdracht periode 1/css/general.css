@@ -1,0 +1,107 @@
+/* Haalt die scrollbar weg */
+
+* { /* Firefox */
+    scrollbar-width: none;
+}
+::-webkit-scrollbar { /* Chrome */
+    display: none;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif, 'Arial';
+    src: url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+    font-style: normal;
+}
+
+html,
+body {
+    /* De pagina vult het gehele scherm op deze manier */
+    height: 100%;
+    margin: 0;
+}
+
+body {
+
+    /*background-image: linear-gradient(to bottom right, #ffb124, #923827);*/
+    background-image: url("../images/bg2.jpg");
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+p, form {
+    text-shadow: 2px 2px #000;
+}
+
+hr {
+    color: #fff;
+    width: 80%;
+}
+
+ul {
+    padding-left: unset;
+}
+
+footer {
+    align-self: center;
+    font-size: 12px;
+}
+
+figcaption,
+strong{
+    text-shadow: 2px 2px #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    height: inherit;
+    width: 100%;
+
+    background-image: linear-gradient(to bottom, rgba(146, 56, 39, 1), rgba(146, 56, 39, 0));
+    border-radius: 10px;
+}
+
+.container,
+nav {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.horizon-box,
+.verti-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.horizon-box{
+    flex-direction: row;
+}
+
+.verti-box{
+    flex-direction: column;
+}
+
+.cont-box {
+    max-width: 800px;
+    font-size: 30px;
+}
+
+.head,
+a{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ffb71b;
+    text-shadow: 3px 3px #76361f;
+}
+
+.image {
+    align-self: center;
+}
+ .image > img {
+     width: 600px;
+     height: auto;
+ }

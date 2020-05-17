@@ -1,0 +1,27 @@
+.divboxmap{
+    
+    width: 100%;
+    background-color: white;
+    /* Begin flex voor het in het midden alignen */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 481px){
+    
+
+    .mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .desktop{
+        display: none;
+    }
+
+    
+}

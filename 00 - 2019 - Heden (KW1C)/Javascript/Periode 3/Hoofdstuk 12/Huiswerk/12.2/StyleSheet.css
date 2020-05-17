@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed';
+
+h1
+{
+    letter-spacing: 8px;
+    word-spacing: 15px;
+}
+
+h1:first-letter,h2:first-letter,h3:first-letter,h4:first-letter,h5:first-letter,h6:first-letter
+{
+    color: #49AFF4;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    color: #535353;
+    font-family: "Roboto","Thin";
+}
+
+p
+{
+    font-family: "Roboto Condensed","Light";
+    font-size: 20px;
+}
+
+span
+{
+    font-style: italic; 
+}

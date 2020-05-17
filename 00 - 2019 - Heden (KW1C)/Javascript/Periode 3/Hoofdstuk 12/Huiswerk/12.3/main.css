@@ -1,0 +1,71 @@
+/* Stijl alle html elementen volgens onderstaande instructies
+GEEN HTML AANPASSEN, ENKEL CSS
+vb:
+h2 
+{
+    color: purple;
+}
+/* Geef het <body> element de achtergrondkleur #bdc3c7*/
+body {
+    background-color: #bdc3c7;
+}
+/* Geef het <h1> element de kleur: #9b59b6*/
+h1 {
+    background-color: #9b59b6;
+}
+/* Maak alle <h2> elementen oranje */
+h2 {
+    color: orange;
+}
+/* Maak alle <li> elementen blauw (kies een eigen hexadecimaal blauw)*/ 
+li {
+    color: #00AEFF;
+}
+/* Verander de achtergrond van elke paragraaf naar geel */
+p {
+    background-color: yellow;
+}
+/* Zorg ervoor dat alle input elementen een rode rand hebben van 3 pixels */
+input {
+    border-color: #F00;
+    border-width: 3px;
+}
+/* Geef de elementen met de klasse 'hello' een witte achtergrond*/
+.hello {
+    background-color: #fff;
+}
+/* Geef het element met id 'special' een 2px solid blauwe rand (kies jouw eigen rgb blauw)*/
+#special {
+    border-color: #0E86CA;
+    border-style: solid;
+    border-width: 2px;
+}
+/* Maak alle <p>'s die genest zijn binnen divs een font-grootte van 25px */
+div > p {
+    font-size: 25px;
+}
+/* Maak enkel de inputs met type 'text' een grijze achtergrond*/
+input[type=text] {
+    background-color: #8a9294;
+}
+/* Geef alle <p>'s binnen de derde <div> een roze achtergrond*/
+div:nth-of-type(3) > p {
+    background-color: #ff75c9;
+}
+/* Geef de tweede <p> binnen de derde <div> een 5px paarse rand*/
+div:nth-of-type(3) > p:nth-of-type(2) {
+    border-style: solid;
+    border-color: #5d005d;
+    border-width: 5px;
+}
+/* Maak de <em> in het derde <div> element turquoise en 20px groot */
+div:nth-of-type(3) em {
+    color: turquoise;
+    font-size: 20px;
+}
+/* Verander de kleur van het <h1> element naar een kleur naar keuze bij hoveren */
+h1:hover {
+    color: #0000FF;
+}
+
+

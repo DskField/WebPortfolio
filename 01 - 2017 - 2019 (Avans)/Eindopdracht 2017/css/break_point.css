@@ -1,0 +1,100 @@
+@media screen and (min-width: 1025px) {
+	fieldset{
+		width: 700px;
+		margin: 0 auto;
+	}
+
+	.desktop_screen {
+		display: block;
+	}
+
+	.tablet_screen {
+		display: none;
+	}
+
+	.mobile_screen {
+		display: none;
+	}
+
+
+
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    body {
+		background: linear-gradient(White,FireBrick);
+		Background-attachment: fixed;
+	}
+
+	fieldset{
+		width: 500px;
+		margin: 0 auto;
+		background: SteelBlue;
+		color: white;
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+	}
+
+
+	.desktop_screen {
+		display: none;
+	}
+
+	.tablet_screen {
+		display: block;
+	}
+
+	.mobile_screen {
+		display: none;
+	}
+
+	.dropdownmenu{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: linear-gradient(White, Green);
+		Background-attachment: fixed;
+	}
+
+	fieldset{
+		width: 300px;
+		margin: 0 auto;
+		background: CadetBlue;
+		font-family: 'Roboto', sans-serif;
+	}
+
+
+
+	.desktop_screen {
+		display: none;
+	}
+
+	.tablet_screen {
+		display: none;
+	}
+
+	.mobile_screen {
+		display: block;
+	}
+
+	.dropdownmenu{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+    .desktop_map {
+		display: none;
+	}
+
+	.mobile_map {
+		display: block;
+	}
+
+}

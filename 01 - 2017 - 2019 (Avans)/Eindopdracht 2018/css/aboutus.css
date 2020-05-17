@@ -1,0 +1,77 @@
+
+.introdiv{
+    display: flex;
+}
+
+.intro{
+    width: 50%;
+    text-align: center;
+    color: #EDF5E1;
+    margin: 0px 10px;
+
+}
+
+@keyframes intro-animation{
+0%{background-color: #FF2C00; color: black;}
+18%{background-color: #FF9000;}
+36%{background-color: yellow;}
+54%{background-color: #2DFF00;}
+72%{background-color: yellow;}
+90%{background-color: #FF9000;}
+100%{background-color: #FF2C00; color: black;}
+
+}
+
+.intro:hover{
+    animation-name: intro-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+.intro>img{
+  border-radius: 10%;
+}
+
+.title{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+.since{
+  display: flex;
+  flex-direction: column;
+}
+
+.since > img{
+  width: 160px;
+  height: 160px;
+  align-self: center;
+}
+
+.since > h2{
+  margin: 0px !important;
+}
+
+@media screen and (max-width: 1024px){
+
+  .since{
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 480px){
+
+  .intro > img{
+    height: 10%;
+  }
+
+
+
+
+
+
+
+}

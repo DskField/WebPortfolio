@@ -1,0 +1,27 @@
+.overzichtflex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+.overzichtbox{
+	margin-bottom: 38px;
+	width: 30%;
+	min-width: 244px;
+	height: 400px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+
+.overzichttekst {
+	height: 50%;
+	width: 100%;
+	min-width: 244px;
+	background: white;	
+	font-size: 30px;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow: scroll;
+}

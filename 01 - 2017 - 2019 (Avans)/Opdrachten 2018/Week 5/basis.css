@@ -1,0 +1,38 @@
+
+@media screen and (min-width: 1025px) {
+
+
+    .navlist{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navitem{
+      text-align: center;
+      border: 1px solid black;
+      margin: 5px;
+      padding: 2px;
+    }
+
+    body{
+      display: flex;
+
+    }
+
+    article{
+      border: 1px solid black;
+      margin: 5px;
+      padding: 2px;
+
+    }
+
+    .blok1{
+
+    }
+}
+
+/*@media screen and (min-width: 481px) {
+
+
+}*/

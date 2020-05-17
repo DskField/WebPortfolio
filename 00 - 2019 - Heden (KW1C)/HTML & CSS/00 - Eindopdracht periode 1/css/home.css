@@ -1,0 +1,21 @@
+
+.links > li > a{
+    transition: 0.5s;
+    color: #ffb71b;
+    text-shadow: 3px 3px #76361f;
+}
+
+.links > li > a:hover {
+    color: #fff;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+
+.links > li{
+    margin-left: 10px;
+}

@@ -1,0 +1,50 @@
+body
+{
+    background-color: black;
+}
+
+h1, h2
+{
+	color: rgb(255, 62, 9);
+}
+
+p
+{
+	background-color:black;
+	color:#433f42;
+}
+
+#first
+{
+	background-color: #007a7a;
+	color: #acdfff;
+}
+
+#second
+{
+	background-color: #000064;
+	color: #b997ff;
+}
+
+#third
+{
+	background-color: #5d005d;
+	color: #ff75c9;
+}
+
+#fourth
+{
+	background-color: #770000;
+	color: #ffa56e;
+}
+
+#fifth
+{
+	background-color: #909000;
+	color: #e8ff7c;
+}
+
+#footer
+{
+	color:rgba(255,255,255,0.2)	;
+}

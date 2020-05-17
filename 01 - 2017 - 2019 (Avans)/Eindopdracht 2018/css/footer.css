@@ -1,0 +1,27 @@
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #8EE4AF;
+}
+
+.opentimes{
+  display: flex;
+  justify-content: center;
+}
+
+.footerul{
+  list-style: none;
+  font-family: verdana;
+  color: #05386b;
+  font-size: 14px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  footer{
+    position: fixed;
+  }
+}
